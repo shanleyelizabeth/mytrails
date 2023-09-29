@@ -102,11 +102,15 @@ def signup():
     # this is saving the form data because we are sending both JSON and file data(the image)
     username = request.form["username"]
     password = request.form["password"]
+
+    if 'image' not in request.files:
+        return make_response({"error": "No image uploaded"}, 400)
+    
     image_file = request.files['image']
 
-    # Handling Errors: this makes sure that the image file type is one of our allowed file types and makes sure that there is an image in the request
-    if 'image' not in request.files or image_file.filename == '':
+    if image_file.filename == '':
         return make_response({"error": "No image uploaded"}, 400)
+    
     if not allowed_file(image_file.filename):
         return make_response({"error": "Invalid file type"}, 400)
     
