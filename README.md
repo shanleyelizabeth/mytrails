@@ -1,14 +1,15 @@
-![mytrail_logo](./src/myTrails.png)
-
+#MyTrails
 
 Welcome to MyTrails!
 
 MyTrails is a fun way to keep track of your and your friends' epic hikes! Explore our database of trails, and if you've hiked one, add it to your hikes. You can favorite a hike, rate its difficulty, give an overall rating, and leave a comment about your experience. You can also explore your friends' hikes by visiting our social page. Which one of your friends has hiked the most trails? Which one has hiked the most dangerous trails. Explore MyTrails to find out!
 
-Prerequisites:
+Technologies Used
 - Python
-- Node.js
-- pipenv
+- React
+- Flask
+- SQL-Alchemy
+
 
 To get started with MyTrails:  
 1 - Fork & Clone the repo  
