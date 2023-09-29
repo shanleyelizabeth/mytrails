@@ -1,4 +1,4 @@
-#MyTrails
+# MyTrails
 
 Welcome to MyTrails!
 
