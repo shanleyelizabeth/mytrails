@@ -16,8 +16,6 @@ To get started with MyTrails:
 2 - Navigate to the MyTrails directory and run `pipenv install && pipenv shell`  
 3 - Run `npm install --prefix client`  
 4 - Start the Flask API on localhost:5555 by running: `python server/app.py`  
-5 - Launch the React app on localhost:4000 by running: `npm start --prefix client`  
-6 - Run `flask db upgrade` to apply the database migrations and set up the schema  
-7 - Run `python seed.py` to seed the database with initial data  
+5 - Launch the React app on localhost:4000 by running: `npm start --prefix client`    
 
 Authors: Francesco Wai, Alexis Boucouvalas, Shanley Elizabeth
